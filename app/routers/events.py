@@ -7,11 +7,11 @@ from models.Event import Event
 router = APIRouter()
 
 db: List[Event] = [
-    Event(id=uuid4(), avenue="Rio de Janeiro"),
-    Event(id=uuid4(), avenue="São Paulo"),
-    Event(id=uuid4(), avenue="Nova Friburgo"),
-    Event(id=uuid4(), avenue="Brasília"),
-    Event(id=uuid4(), avenue="Salvador")
+    Event(id=uuid4(), avenue="Rio de Janeiro", datetime='2021-01-15 20:25'),
+    Event(id=uuid4(), avenue="São Paulo", datetime='2022-02-12 21:55'),
+    Event(id=uuid4(), avenue="Nova Friburgo", datetime='2022-02-18 18:30'),
+    Event(id=uuid4(), avenue="Brasília", datetime='2022-03-11 17:15'),
+    Event(id=uuid4(), avenue="Salvador", datetime='2022-05-10 22:00')
 ]
 
 
