@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from routers import songs, events
+from routes import songs, events
 
 app = FastAPI()
 

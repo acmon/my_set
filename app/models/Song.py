@@ -4,6 +4,4 @@ from pydantic import BaseModel
 
 
 class Song(BaseModel):
-    # SEE - Pydantic
-    id: Optional[UUID] = uuid4()
     title: str
